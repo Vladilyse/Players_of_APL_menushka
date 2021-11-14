@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 100%;
+}
+.conteiner{
+    width: 100%;
+    max-width: 1500px;
+    height: 900px;
+    background: url(./img/апл24.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.menu{
+    width: 100%;
+    height: 500px;
+}
+.top{
+    height: 100px;
+    width: 100%;
+    background-color: royalblue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 27px 14px royalblue; 
+    box-shadow: 0px 0px 27px 14px royalblue;
+    margin-top: 30px;
+}
+.top h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.main{
+    display: flex;
+}
+.block1{
+    width: 350px;
+    height: 70px;
+    background-color: yellowgreen;
+    margin-top: 50px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 24px 5px #000000; 
+    box-shadow: 0px 0px 24px 5px #000000;
+}
+ul{
+    list-style: none;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: block;
+    text-align: center;
+    line-height: 70px;
+}
+.block1 ul li ul li{
+    width: 250px;
+    height: 90px;
+    text-align: center;
+}
+.block1 ul li ul{
+    display: none;
+}
+.block1 ul li:hover ul{
+    display: block;
+}
+.block1 ul li ul li a{
+    color: white;
+}
+.a_1{
+    background: url(./img/мансти.gif) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.a_1:hover{
+    border-radius: 30px;
+    color: lawngreen;
+    font-family: 'Anton', sans-serif;
+}
+.a_2{
+    background: url(./img/ливер.gif) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.a_2:hover{
+    border-radius: 30px;
+    color: lawngreen;
+    font-family: 'Anton', sans-serif;
+}
+.a_3{
+    background: url(./img/мю.gif) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.a_3:hover{
+    border-radius: 30px;
+    color: lawngreen;
+    font-family: 'Anton', sans-serif;
+}
+.a_4{
+    background: url(./img/тотен.gif) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.a_4:hover{
+    border-radius: 30px;
+    color: lawngreen;
+    font-family: 'Anton', sans-serif;
+}
+.a_5{
+    background: url(./img/арсенал.gif) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.a_5:hover{
+    border-radius: 30px;
+    color: lawngreen;
+    font-family: 'Anton', sans-serif;
+}
+.a_6{
+    background: url(./img/JjBq.gif) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.a_6:hover{
+    border-radius: 30px;
+    color: lawngreen;
+    font-family: 'Anton', sans-serif;
+}
+.block1 ul li ul li ul li{
+    display: none;
+    position: relative;
+    right: 250px;
+    bottom: 30px;
+    height: 100px;
+    
+}
+.block1 ul li ul li ul li{
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+.block1 ul li ul li:hover ul li{
+    display: block;
+}
+.li_1{
+    background: url(./img/фил.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px 0px 0px 20px;
+}
+span{
+    color: rgb(218, 23, 23);
+    font-family: 'Anton', sans-serif;
+    font-size: 35px;
+}
+.li_2{
+    background: url(./img/диаш.jpg) no-repeat;
+    background-position: center;
+    background-size: cover; 
+    border-radius: 20px 0px 0px 20px;
+}
+.li_3{
+    background: url(./img/салах.jpg) no-repeat;
+    background-position: center;
+    background-size: cover; 
+    border-radius: 20px 0px 0px 20px;
+}
+.li_3 p{
+    color: yellowgreen;
+}
+.li_3 span{
+    color: white;
+}
+.li_4{
+    background: url(./img/дейк.jpg) no-repeat;
+    background-position: center;
+    background-size: cover; 
+    border-radius: 20px 0px 0px 20px;
+}
+.li_4 p{
+    color: yellowgreen;
+}
+.li_4 span{
+    color: white;
+}
+.li_5{
+    background: url(./img/роналду.jpg) no-repeat;
+    background-position: center;
+    background-size: cover; 
+    border-radius: 20px 0px 0px 20px;
+}
+.li_5 p{
+    color: yellowgreen;
+}
+.li_6{
+    background: url(./img/маги.jpg) no-repeat;
+    background-position: center;
+    background-size: cover; 
+    border-radius: 20px 0px 0px 20px;
+}
+.li_5 span{
+    color: white;
+}
+.li_6 p{
+    color: yellowgreen;
+}
+.li_6 span{
+    color: white;
+}
+.li_7{
+    background: url(./img/кейн.jpg) no-repeat;
+    background-position: center;
+    background-size: cover; 
+    border-radius: 20px 0px 0px 20px;
+}
+.li_7 p{
+    color: yellowgreen;
+}
+.li_8{
+    background: url(./img/дайер\ деф\ тота.jpg) no-repeat;
+    background-position: center;
+    background-size: cover; 
+    border-radius: 20px 0px 0px 20px;
+}
+.li_8 p{
+    color: yellowgreen;
+}
+.li_9{
+    background: url(./img/обьама.jpg) no-repeat;
+    background-position: center;
+    background-size: cover; 
+    border-radius: 20px 0px 0px 20px;
+}
+.li_9 p{
+    color: white;
+}
+.li_9 span{
+    color: yellowgreen;
+}
+.li_10{
+    background: url(./img/уайт.jpg) no-repeat;
+    background-position: center;
+    background-size: cover; 
+    border-radius: 20px 0px 0px 20px;
+}
+.li_10 p{
+    color: white;
+}
+.li_10 span{
+    color: yellowgreen;
+}
+.li_11{
+    background: url(./img/лукаку.jpg) no-repeat;
+    background-position: center;
+    background-size: cover; 
+    border-radius: 20px 0px 0px 20px;
+}
+.li_11 p{
+    color: white;
+}
+.li_12{
+    background: url(./img/рюди.jpg) no-repeat;
+    background-position: center;
+    background-size: cover; 
+    border-radius: 20px 0px 0px 20px;
+}
+.li_12 p{
+    color: white;
+}
+
+.block2{
+    width: 350px;
+    height: 70px;
+    background-color: yellowgreen;
+    margin-top: 50px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 24px 5px #000000; 
+    box-shadow: 0px 0px 24px 5px #000000;
+}
+.block2 ul li ul li{
+    display: none;
+}
+.block2 ul li:hover ul li{
+    display: block;
+    width: 80%;
+    height: 90px;
+}
+.a_7{
+    background: url(./img/вест_хем.gif) no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.a_8{
+    background: url(./img/7SLi.gif) no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.a_9{
+    background: url(./img/4AIe.gif) no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.a_10{
+    background: url(./img/лестер.gif) no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.block2 ul li ul li a:hover{
+    color: lawngreen;
+    border-radius: 30px;
+    font-family: 'Anton', sans-serif;
+}
+.block2 ul li ul li ul{
+    display: none;
+}
+.block2 ul li ul li:hover ul{
+    display: block;
+    position: relative;
+    left: 250px;
+    height: 0px;
+    bottom: 20px;
+}
+.block2 ul li ul li ul li{
+    height: 120px;
+}
+.li_13{
+    background: url(./img/антонио\ вестхем.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.li_13 p{
+    color: white;
+    text-align: center;
+}
+.li_14{
+    background: url(./img/доусон\ вест.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.li_14 p{
+    color: black;
+    text-align: center;
+}
+.li_15{
+    background: url(./img/харисон\ лидс.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.li_15 p{
+    color: lawngreen;
+    text-align: center;
+}
+.li_16{
+    background: url(./img/купер\ лидс.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.li_16 p{
+    color: lawngreen;
+    text-align: center;
+}
+.li_17{
+    background: url(./img/калверт.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.li_17 p{
+    color: blue;
+    text-align: center;
+}
+.li_18{
+    background: url(./img/кин\ еверттон.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.li_18 p{
+    color: lawngreen;
+}
+.li_19{
+    background: url(./img/варди\ лест.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.li_19 p{
+    color: lawngreen;
+    text-align: center;
+}
+.li_20{
+    background: url(./img/эванс\ лест.jpeg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.li_20 p{
+    color: lawngreen;
+    text-align: center;
+}
